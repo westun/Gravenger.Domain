@@ -9,16 +9,8 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Domain Models and Persistence layer for Gravenger.</description>
     <releaseNotes>
-		0.1.0 - Initial creation
-		0.1.1 - Remove TODO comments for Entity Framework configurations
-	</releaseNotes>
-    <!-- commenting out dependencies.  running nuget pack when .nuspec file lives in .csproj dir should automatically add dependencies from packages.config
-	<dependencies>
-      <dependency id="BCrypt" version="1.0.0" />
-      <dependency id="BCrypt-Official" version="0.1.109" />
-      <dependency id="EntityFramework" version="6.2.0" />
-      <dependency id="Newtonsoft.Json" version="10.0.3" />
-      <dependency id="System.ComponentModel.Annotations" version="4.4.0" />
-    </dependencies>-->
+		  0.1.0 - Initial creation
+		  0.1.1 - Remove TODO comments for Entity Framework configurations
+	  </releaseNotes>
   </metadata>
 </package>
