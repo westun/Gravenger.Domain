@@ -2,13 +2,16 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>Gravenger.Domain</id>
-    <version>0.1.0</version>
+    <version>0.1.1</version>
     <title>Gravenger.Domain</title>
     <authors>Gravenger</authors>
     <owners>Gravenger</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Domain Models and Persistence layer for Gravenger.</description>
-    <releaseNotes>0.1.0 - Initial creation</releaseNotes>
+    <releaseNotes>
+		0.1.0 - Initial creation
+		0.1.1 - Remove TODO comments for Entity Framework configurations
+	</releaseNotes>
     <!-- commenting out dependencies.  running nuget pack when .nuspec file lives in .csproj dir should automatically add dependencies from packages.config
 	<dependencies>
       <dependency id="BCrypt" version="1.0.0" />
