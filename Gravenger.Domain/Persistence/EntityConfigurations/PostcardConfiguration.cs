@@ -21,8 +21,6 @@ namespace Gravenger.Domain.Persistence.EntityConfigurations
                 .WithMany(c => c.Postcards)
                 .WillCascadeOnDelete(false);
 
-            //TODO: Add all relationships to fluent api configuration
-
             this.HasIndex(pc => new { pc.AccountID, pc.CardID })
                 .IsUnique();
         }
