@@ -12,8 +12,6 @@ namespace Gravenger.Domain.Persistence.EntityConfigurations
             this.Property(t => t.Name)
                 .IsRequired()
                 .HasMaxLength(100);
-
-            //TODO: Add all relationships to fluent api configuration
         }
     }
 }
