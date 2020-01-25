@@ -16,8 +16,6 @@ namespace Gravenger.Domain.Persistence.EntityConfigurations
 
             this.Property(c => c.CreatedDate)
                 .HasDatabaseGeneratedOption(DatabaseGeneratedOption.Computed);
-
-            //TODO: Add all relationships to fluent api configuration
         }
     }
 }
