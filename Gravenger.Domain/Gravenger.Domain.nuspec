@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>Gravenger.Domain</id>
-    <version>0.2.1</version>
+    <version>0.2.2</version>
     <title>Gravenger.Domain</title>
     <authors>Gravenger</authors>
     <owners>Gravenger</owners>
@@ -14,6 +14,7 @@
       0.1.2 - Remove more TODO comments for Entity Framework configurations
       0.2.0 - Remove Bcrypt-Official nuget package that is not used.
       0.2.1 - Testing deployment strategies.
+      0.2.2 - Continue testing deployment strategies.
     </releaseNotes>
   </metadata>
 </package>
