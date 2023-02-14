@@ -20,7 +20,8 @@ namespace Gravenger.Domain.Persistence.Repositories
 
         public AccountTile Get(int accountID, int tileID)
         {
-            return this.Context.AccountTiles.Find(accountID, tileID);
+            return this.Context.AccountTiles
+                .FirstOrDefault(at => at.AccountID == accountID && at.TileID == tileID);
         }
 
         public AccountTile GetWithAccountAndAccountTileLikes(int accountTileID)
